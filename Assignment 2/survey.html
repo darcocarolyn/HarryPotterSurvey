@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Survey &dash; Carolyn D'Arco</title>
+    <script type="text/javascript" src="js/process_form.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="info">
+      <div id="sidebardiv">
+        <sidebar id="sidebar">Menu</sidebar>
+        <a href="1" class="bar-item ">Home</a>
+        <a href="2" class="bar-item ">About</a>
+        <a href="3" class="bar-item ">Contact</a>
+      </div>
+    <form action="validation" method="post" name="myform" onsubmit="document.getElementById('submit').disabled=true;">
+      <h1 id = "TopHeading">Personal Information</h1>
+        <div id="firstname">
+          <label for="first_name_id">First Name:</label>
+          <input id="first_name_id" type="text" name="first_name_name" value=""/>
+          <span />
+        </div>
+        <div id="lastname">
+          <label for="last_name_id">Last Name:</label>
+          <input id="last_name_id" type="text" name="last_name_name" value="" />
+          <span />
+        </div>
+        <div id="emailaddress">
+          <label for="email_address_id">Email Address:</label>
+          <input id="email_address_id" type="text" name="email_address_name" value="" />
+          <span />
+        </div>
+        <div id="phonenumber">
+          <label for="phone_number_id">Phone Number:</label>
+          <input id="phone_number_id" type="text" name="phone_number_name" value="" />
+          <span />
+        </div>
+        <div id="studentaddress">
+          <label for="student_address_id">Student Address:</label>
+          <input id="student_address_id" type="text" name="student_address_name" value="" />
+          <span />
+        </div>
+        <div id="user_button">
+          <input
+            name="submit"
+            type="submit"
+            class="button"
+            id="submit"
+            value="Submit"
+          />
+        </div>
+        <div id="validation"></div>
+    </form>
+</div>
+<div id="survey">
+  <h1 id="heading">Which Hogwarts House are you in?</h1>
+  <form action="badges" method="post" name="surveyform" id="surveyform">
+    <div id="question1"></div>
+    <div id="question2"></div>
+    <div id="buttondiv"></div>
+    <div id="displayinfo"></div>
+    <div id="badge"></div>
+    <div id="caption"></div>
+  </form>  
+  <footer>Created by Carolyn D'Arco</footer>
+</div>
+  </body>
+</html>

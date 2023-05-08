@@ -1,0 +1,164 @@
+@font-face {
+	font-family: "lumos";
+	src: url(../font/dum1.ttf)
+  }
+body {
+font-family: "lumos";
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+
+
+}
+#TopHeading{
+	margin-right: 20%;
+}
+/*Personal Info*/
+.info{
+	display: grid;
+    grid-template-columns: auto auto;
+	border: 10px solid black;
+	margin: auto;
+	background-image: url(../img/Parchment.jpg);
+	width: 30%;
+}
+#sidebardiv{
+margin-left: 35%;
+margin-top: 30%;
+width: 100%;
+}
+#sidebar{
+	font-size: 50px;
+	text-decoration: underline;
+}
+.bar-item{
+	display: block;
+	padding: 15px;
+	margin-left: 15px;
+	width: 100%;
+	font-size: 20px;
+	color: rgb(88, 35, 11);
+}
+.bar-item:hover{
+	color: black;
+}
+form {
+	display: block;
+	margin: auto;
+	padding-left: 10%;
+}
+div {
+	padding: 10px;
+	width: 53%;
+}
+
+.button {
+    border: thin dotted #333;
+	color: #FFF;
+    background-color: rgb(88, 35, 11);
+}
+.button:hover {
+    border: 1px solid rgb(88, 35, 11);
+	color: #000;
+    background-color: #FFF;
+}
+span{
+	display: inline-block;
+}
+/*Textboxes*/
+#firstname{
+	width: 100%;
+}
+#lastname{
+	width: 100%;
+}
+#emailaddress{
+	width: 100%;
+}
+#phonenumber{
+	width: 100%;
+}
+#studentaddress{
+	width: 100%;
+}
+/*Survey Quiz*/
+#survey{
+	border: 10px solid black;
+	background-image: url(../img/Parchment.jpg);
+	width: 30%;
+	margin: auto;
+	margin-top: 25px;
+}
+#surveyform{
+display: inline-block;
+margin-top: -5%;
+margin: auto;
+margin-right: -30%;
+}
+#surveybutton{
+	border: thin dotted #333;
+	color: #FFF;
+    background-color: rgb(88, 35, 11);
+}
+#surveybutton:hover{
+	border: 1px solid rgb(88, 35, 11);
+	color: #000;
+    background-color: #FFF;
+}
+.questionborder{
+	border: 2px solid black;
+}
+#QuestionText{
+	margin-bottom: 13%;
+}
+/*Radio Buttons*/
+#q1a, #q1b{
+	padding-top: 10px;
+	float: left;
+}
+#q2a,#q2b{
+	padding-top: 10px;
+	float:left;
+}
+#question1{
+display: block;
+text-align: center;
+margin-right: 20%;
+font-size: 20px;
+}
+#question2{
+margin-top: 5%;
+display: block;
+text-align: center;
+margin-right: 20%;
+font-size: 20px;
+}
+#Labelq1{
+	float: left;
+}
+#Labelq2{
+	margin-bottom: 5%;
+	float: left;
+}
+/*Badge and Footer*/
+#displayinfo{
+margin: auto;
+margin-left: 6%;
+text-align: center;
+}
+footer{
+	text-align:center;
+}
+#badge{
+	margin: auto;
+	margin-left: 6%;
+}
+h3{
+	text-align: center;
+}
+#caption{
+	margin-left: 7%;
+	text-align: center;
+}
